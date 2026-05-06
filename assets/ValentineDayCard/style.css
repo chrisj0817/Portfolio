@@ -1,0 +1,74 @@
+@import url('https://fonts.gstatic.com/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6H6Mk.woff2');
+body{
+    background: linear-gradient( right, pink, lightcoral);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: crimson;
+    font-size: 3em;
+}
+
+
+h2{
+    color: hotpink;
+}
+
+
+.intro{
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+
+ul{
+    list-style-type: "💘 ";
+    text-align: left;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+
+.poem{
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 15px;
+    font-style: italic;
+}
+
+
+.images img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+/* https://www.google.com/search?client=opera-gx&q=transfrom+in+html&sourceid=opera&ie=UTF-8&oe=UTF-8 */
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+
+.cheese{
+    font-weight: bold;
+    color: purple;
+    margin-top: 20px;
+}
